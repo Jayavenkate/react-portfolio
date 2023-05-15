@@ -1,0 +1,16 @@
+#app-name span{
+color: orange;
+}
+#app-bar{
+    background-color: black;
+}
+#app-name{
+    font-style: "Alata" , sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+.nav-items{
+    cursor: pointer;
+   margin-right: 30px;
+}
