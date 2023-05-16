@@ -5,72 +5,72 @@ export function Skills() {
   return (
     <Element className="skill-con" id="skills">
       <div>
-        <h2>Skills & Tools</h2>
+        <h2 className="skill-heading">Skills & Tools</h2>
       </div>
       <div className="skill-card-container">
-        <div id="skill-cards">
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           />
           <p>JavaScript</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
           <p>React</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
           />
           <p>Redux</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
           />
           <p>MongoDB</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
           />
           <p>Git</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
           />
           <p>VS Code</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
           />
           <p>HTML5</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
           />
           <p>CSS3</p>
-        </div>
-        <div id="skill-cards">
+        </Card>
+        <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
           />
           <p>MaterialUI</p>
-        </div>
+        </Card>
       </div>
     </Element>
   );
