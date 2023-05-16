@@ -1,16 +1,36 @@
-#app-name span{
-color: orange;
+#app-name span {
+  color: orangered;
 }
-#app-bar{
-    background-color: black;
+#app-bar {
+  display: flex;
+ 
+  color: white;
+  top: 0;
+  /* position: fixed; */
+  z-index: 2000;
+  background-color: black;
 }
-#app-name{
-    font-style: "Alata" , sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-  
+#app-name {
+  font-style: "Alata", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
-.nav-items{
-    cursor: pointer;
-   margin-right: 30px;
+.nav-items {
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right: 50px;
+  letter-spacing: 1px;
+}
+.nav-items:hover {
+  transform: translateY(-6px);
+  background-color: rgb(255, 69, 0);
+
+  color: white;
+  /* padding: 5px 20px; */
+}
+.nav-contact {
+  background-color: orangered;
+  padding: 5px 20px;
+  border-radius: 2px;
+  cursor: pointer;
 }

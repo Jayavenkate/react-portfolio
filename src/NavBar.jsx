@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 export function NavBar() {
   return (
     <div>
-      <AppBar id="app-bar" position="static">
+      <AppBar id="app-bar" position="fixed">
         <Toolbar>
           <Typography
             id="app-name"
@@ -49,6 +49,7 @@ export function NavBar() {
           >
             <h3 className="nav-items">Contact</h3>
           </Link>
+          <h3 className="nav-contact">Join with Me</h3>
         </Toolbar>
       </AppBar>
     </div>
