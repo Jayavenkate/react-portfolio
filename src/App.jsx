@@ -4,6 +4,7 @@ import { TopContainer } from "./TopContainer";
 import { Skills } from "./Skills";
 import { Home } from "./Home";
 import { About } from "./About";
+import { Project } from "./Project";
 export default function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ export default function App() {
       <About />
 
       <Skills />
+      <Project />
     </div>
   );
 }
