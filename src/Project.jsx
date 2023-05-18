@@ -26,7 +26,7 @@ export function Project() {
     },
   ];
   return (
-    <Element id="project" className="project-container">
+    <Element className="project-container" id="project">
       <div className="project-con">
         {project.map((project) => (
           <Card key={project.id} className="project-content">
