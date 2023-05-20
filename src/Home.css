@@ -1,27 +1,34 @@
-.top-container{
-    height: 100vh;
+.top-container {
+  height: 100vh;
 }
-.home-content{
-    /* color: white !important; */
-    position: relative;
-
+.home-content {
+  /* color: white !important; */
+  position: relative;
 }
-.home-container{
-    position: absolute;
-    top: 200px;
-    left: 150px;
-   
+.home-container {
+  position: absolute;
+  top: 200px;
+  left: 150px;
 }
-.home-container h1{
-    letter-spacing: 1px;
-    text-align: left;
-    padding-left: 3px;
-    padding-top: 20px;
-    font-size: 3.5rem;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
+.home-container h1 {
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 3px;
+  padding-top: 20px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
-.btn:hover{
-    background-color:white !important;
-    color: black;
+.btn:hover {
+  background-color: white !important;
+  color: black;
+}
+.span-1 {
+  color: white;
+}
+.span-2 {
+  color: orangered;
+}
+.span-3{
+    color: white;
 }

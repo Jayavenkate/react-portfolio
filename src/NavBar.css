@@ -3,10 +3,8 @@
 }
 #app-bar {
   display: flex;
- 
   color: white;
   top: 0;
-  /* position: fixed; */
   z-index: 2000;
   background-color: black;
 }
@@ -24,9 +22,7 @@
 .nav-items:hover {
   transform: translateY(-6px);
   background-color: rgb(255, 69, 0);
-
   color: white;
-  /* padding: 5px 20px; */
 }
 .nav-contact {
   background-color: orangered;
