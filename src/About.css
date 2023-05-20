@@ -15,10 +15,11 @@
   margin: 0px;
   text-align: center;
   font-family: "Alkatra", cursive;
+  font-size:30px;
 }
 .about-container .courses{
-    color: orangered;
+    color: rgb(238, 21, 28);
 }
 .about-container p span{
-    color: rgb(21, 25, 238)
+    color: rgb(238, 21, 28)
 }

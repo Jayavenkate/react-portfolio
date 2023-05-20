@@ -1,3 +1,6 @@
+.top-container{
+    height: 100vh;
+}
 .home-content{
     /* color: white !important; */
     position: relative;
