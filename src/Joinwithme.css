@@ -1,0 +1,38 @@
+.join-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-content h1 {
+  font-size: 70px;
+  color: orangered;
+}
+.join-content h2 {
+  margin-left: 70px;
+  font-size: 40px;
+  color: white;
+}
+.card-con {
+  display: flex;
+  width: 400px;
+  min-height: max-content;
+  align-items: center;
+  padding: 40px;
+
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.btn-join {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-content {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}

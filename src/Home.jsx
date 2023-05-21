@@ -15,11 +15,20 @@ export function Home() {
           <h1 className="span-3">
             <span>Full stack developer</span>
           </h1>
-          {/* <div className="home-button"> */}
-          {/* <a href="https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view?usp=share_link"> */}
-            <Button onClick={()=>window.open("https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view?usp=share_link")}variant="contained" color="error" className="btn">
-              Resume
-            </Button>
+          
+        
+          <Button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view?usp=share_link"
+              )
+            }
+            variant="contained"
+            color="error"
+            className="btn"
+          >
+            Resume
+          </Button>
           {/* </a> */}
           {/* <Link to="project" smooth={true} duration={500}>
             <Button variant="contained"> My Work </Button>

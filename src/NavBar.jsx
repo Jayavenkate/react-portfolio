@@ -49,7 +49,16 @@ export function NavBar() {
           >
             <h3 className="nav-items">Contact</h3>
           </Link>
-          <h3 className="nav-contact">Join with Me</h3>
+          <Link
+            to="join"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <h3 className="nav-contact">Join with Me</h3>
+          </Link>
+          {/* <h3 className="nav-contact">Join with Me</h3> */}
         </Toolbar>
       </AppBar>
     </div>
