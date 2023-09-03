@@ -1,10 +1,6 @@
 .top-container {
   height: 100vh;
 }
-.home-content {
-  /* color: white !important; */
-  position: relative;
-}
 .home-container {
   position: absolute;
   top: 200px;
@@ -24,11 +20,45 @@
   color: black;
 }
 .span-1 {
-  color: white;
+  color: #003067;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
 }
 .span-2 {
   color: orangered;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
-.span-3{
-    color: white;
+.span-3 {
+  color: #003067;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.icon-button {
+  margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  .span-1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .span-2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .span-3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .icon-button {
+    margin-top: 10px;
+  }
+  .home-container {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+  }
 }

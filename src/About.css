@@ -15,11 +15,20 @@
   margin: 0px;
   text-align: center;
   font-family: "Alkatra", cursive;
-  font-size:30px;
+  font-size: 30px;
 }
-.about-container .courses{
-    color: rgb(238, 21, 28);
+.about-container .courses {
+  color: rgb(238, 21, 28);
 }
-.about-container p span{
-    color: rgb(238, 21, 28)
+.about-container p span {
+  color: rgb(238, 21, 28);
+}
+@media screen and (max-width: 768px) {
+  .about-content {
+    max-width: 480px;
+    margin: 0px;
+    text-align: center;
+    font-family: "Alkatra", cursive;
+    font-size: 15px;
+  }
 }

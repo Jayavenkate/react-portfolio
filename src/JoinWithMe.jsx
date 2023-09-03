@@ -1,28 +1,25 @@
 import { Element } from "react-scroll";
 import Button from "@mui/material/Button";
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+
 import TextField from "@mui/material/TextField";
 import "./Joinwithme.css";
 import { Card } from "@mui/material";
-
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 export function JoinWithMe() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_27xoonm",
         "template_riitx9d",
         form.current,
-        "26t8ZU8tH5B7awJh4"
+        "yr7lrcCS0KpVsDPyj"
       )
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
           e.target.reset();
         },
         (error) => {
@@ -30,7 +27,7 @@ export function JoinWithMe() {
         }
       );
   };
- 
+
   return (
     <Element id="join" className="join-container">
       <div className="join-content">
@@ -60,7 +57,7 @@ export function JoinWithMe() {
               fullWidth
               id="outlined-multiline-static"
               label="Message"
-              name="message" 
+              name="message"
               rows={4}
               multiline
               variant="outlined"
@@ -76,8 +73,45 @@ export function JoinWithMe() {
             </Button>
           </Card>
         </form>
-      
       </div>
     </Element>
   );
 }
+// import React, { useRef } from "react";
+// import emailjs from "@emailjs/browser";
+
+// export const JoinWithMe = () => {
+//   const form = useRef();
+
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs
+//       .sendForm(
+//         "YOUR_SERVICE_ID",
+//         "YOUR_TEMPLATE_ID",
+//         form.current,
+//         "YOUR_PUBLIC_KEY"
+//       )
+//       .then(
+//         (result) => {
+//           console.log(result.text);
+//         },
+//         (error) => {
+//           console.log(error.text);
+//         }
+//       );
+//   };
+
+//   return (
+//     <form ref={form} onSubmit={sendEmail}>
+//       <label>Name</label>
+//       <input type="text" name="user_name" />
+//       <label>Email</label>
+//       <input type="email" name="user_email" />
+//       <label>Message</label>
+//       <textarea name="message" />
+//       <input type="submit" value="Send" />
+//     </form>
+//   );
+// };

@@ -38,25 +38,47 @@ export function Project() {
     window.open(link);
   };
   return (
+    // <Element className="project-container" id="project">
+    //   <div className="project-con" elevation={3}>
+    //     {project.map((project) => (
+    //       <Card key={project.id} className="project-content">
+    //         <img
+    //           className="project-image"
+    //           src={project.image}
+    //           alt={project.id}
+    //         />
+    //         <div className="project-title">
+    //           <h3>{project.title}</h3>
+    //         </div>
+    //         <div className="btn-project">
+    //           <button>Front End</button>
+    //           <button onClick={() => openLink(project.link)}>Link</button>
+    //           <button>Back End</button>
+    //         </div>
+    //       </Card>
+    //     ))}
+    //   </div>
+    // </Element>
     <Element className="project-container" id="project">
-      <div className="project-con" elevation={3}>
-        {project.map((project) => (
-          <Card key={project.id} className="project-content">
-            <img
-              className="project-image"
-              src={project.image}
-              alt={project.id}
-            />
-            <div className="project-title">
-              <h3>{project.title}</h3>
-            </div>
-            <div className="btn-project">
-              <button>Front End</button>
-              <button onClick={() => openLink(project.link)}>Link</button>
-              <button>Back End</button>
-            </div>
-          </Card>
-        ))}
+      <div className="project-con">
+        <h1 className="about-heading">Project</h1>
+        <div className="mySwiper">
+          {project.map((project) => (
+            <Card key={project.id} className="card-wrapper">
+              <img
+                className="project-image"
+                src={project.image}
+                alt={project.id}
+              />
+              <h3 style={{ padding: "5px" }}>{project.title}</h3>
+              <div className="btn-project">
+                <button>Front End</button>
+                <button onClick={() => openLink(project.link)}>Link</button>
+                <button>Back End</button>
+              </div>
+            </Card>
+          ))}
+        </div>
       </div>
     </Element>
   );
