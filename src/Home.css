@@ -75,7 +75,5 @@
     justify-content: center;
     flex-direction: column;
   }
-  .top-container {
-    min-height: 68vh;
-  }
+  
 }

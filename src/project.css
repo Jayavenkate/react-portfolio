@@ -72,12 +72,12 @@
   height: 260px;
 }
 @media screen and (max-width: 768px) {
-  .project-container {
+  /* .project-container {
     height: 140vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
   .mySwiper {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -109,11 +109,11 @@
   .card-wrapper {
     height: 280px;
   }
-  .project-container {
+  /* .project-container {
     height: 120vh;
   
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
 }
