@@ -1,5 +1,5 @@
 .about-container {
-  height: 100vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,5 +30,12 @@
     text-align: center;
     font-family: "Alkatra", cursive;
     font-size: 15px;
+  }
+  .about-container {
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

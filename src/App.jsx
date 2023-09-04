@@ -1,7 +1,5 @@
 import "./App.css";
-// import { Home } from "./Home";
 import { NavBar } from "./NavBar";
-// import { TopContainer } from "./TopContainer";
 import { Skills } from "./Skills";
 import { Home } from "./Home";
 import { About } from "./About";

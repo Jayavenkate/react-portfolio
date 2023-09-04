@@ -13,8 +13,7 @@
 .contact-con {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 200px; */
-  /* margin-right: 100px; */
+  
   align-items: center;
   justify-content: center;
 }
@@ -34,5 +33,11 @@
 @media screen and (max-width: 768px) {
   .contact-content h2 {
     font-size: 30px;
+  }
+  .contact-container {
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
