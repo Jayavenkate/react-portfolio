@@ -1,4 +1,4 @@
-import { Button, IconButton } from "@mui/material";
+import { Button } from "@mui/material";
 import "./Home.css";
 
 import { Element } from "react-scroll";
@@ -20,7 +20,7 @@ export function Home() {
           <Button
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view?usp=share_link"
+                "https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view"
               )
             }
             variant="contained"
