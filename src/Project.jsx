@@ -36,15 +36,6 @@ export function Project() {
       backEndSource: "https://github.com/Jayavenkate/webcode-2-node",
       techStack: "Reactjs, NodeJs, Express, MongoDb",
     },
-    {
-      id: "colorBlock",
-      title: "Color Block",
-      image: color,
-      link: "https://frolicking-bublanina-223494.netlify.app",
-      frontEndSource: "https://github.com/Jayavenkate/password-reset-react",
-      backEndSource: "https://github.com/Jayavenkate/password-reset-node",
-      techStack: "HTML, Css, Reactjs",
-    },
   ];
   const openLink = (link) => {
     window.open(link, "_blank");
@@ -61,10 +52,23 @@ export function Project() {
                 src={project.image}
                 alt={project.id}
               />
-              <h3 style={{ padding: "5px", color: "orangered" ,textAlign: "center"}}>
+              <h3
+                style={{
+                  padding: "5px",
+                  color: "orangered",
+                  textAlign: "center",
+                }}
+              >
                 {project.title}
               </h3>
-              <h4 style={{ textAlign: "center", width: "250px" ,height:"20px", padding:"10px 0px"}}>
+              <h4
+                style={{
+                  textAlign: "center",
+                  width: "250px",
+                  height: "20px",
+                  padding: "10px 0px",
+                }}
+              >
                 Tech stack :{project.techStack}
               </h4>
               <div className="btn-project">
@@ -78,6 +82,44 @@ export function Project() {
               </div>
             </Card>
           ))}
+          <Card className="card-wrapper">
+            <img className="project-image" src={color} />
+            <h3
+              style={{
+                padding: "5px",
+                color: "orangered",
+                textAlign: "center",
+              }}
+            >
+              Color Block
+            </h3>
+            <h4
+              style={{
+                textAlign: "center",
+                width: "250px",
+                height: "20px",
+                padding: "10px 0px",
+              }}
+            >
+              Tech stack :HTML, Css, Reactjs
+            </h4>
+            <div className="btn-project">
+              <button
+                onClick={() =>
+                  openLink("https://github.com/Jayavenkate/shopping-app")
+                }
+              >
+                Front End
+              </button>
+              <button
+                onClick={() =>
+                  openLink("https://frolicking-bublanina-223494.netlify.app")
+                }
+              >
+                Link
+              </button>
+            </div>
+          </Card>
         </div>
       </div>
     </Element>

@@ -1,15 +1,17 @@
 .top-container {
-  min-height: 88vh;
+  min-height: 100vh;
+  
 }
 .home-container {
   position: absolute;
   top: 150px;
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   align-items: flex-end;
   justify-content: space-around;
   flex-direction: row;
+
 }
 .home-container h1 {
   letter-spacing: 1px;
@@ -45,6 +47,29 @@
 }
 .image {
   width: 500px;
+  object-fit: contain;
+}
+@media (max-width: 1024px) {
+  .span-1 {
+    color: #003067;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  .span-2 {
+    color: orangered;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .span-3 {
+    color: #003067;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .image {
+    width: 400px;
+    object-fit: contain;
+  }
 }
 @media screen and (max-width: 768px) {
   .span-1 {
@@ -75,5 +100,4 @@
     justify-content: center;
     flex-direction: column;
   }
-  
 }

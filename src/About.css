@@ -1,9 +1,11 @@
 .about-container {
-  height: 88vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+ 
 }
 .about-heading {
   font-size: 40px;
@@ -12,7 +14,7 @@
 .about-content {
   font-size: 25px;
   max-width: 980px;
-  margin: 0px;
+  /* margin: 0px; */
   text-align: center;
   font-family: "Alkatra", cursive;
   font-size: 30px;
@@ -23,10 +25,20 @@
 .about-container p span {
   color: rgb(238, 21, 28);
 }
+@media (max-width: 1024px) {
+  .about-content {
+    font-size: 20px;
+    max-width: 980px;
+    /* margin: 0px; */
+    text-align: center;
+    font-family: "Alkatra", cursive;
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 768px) {
   .about-content {
     max-width: 480px;
-    margin: 0px;
+    /* margin: 0px; */
     text-align: center;
     font-family: "Alkatra", cursive;
     font-size: 15px;
