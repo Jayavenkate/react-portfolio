@@ -91,44 +91,7 @@ export function Project() {
               </div>
             </Card>
           ))}
-          {/* <Card className="card-wrapper">
-            <img className="project-image" src={color} />
-            <h3
-              style={{
-                padding: "5px",
-                color: "orangered",
-                textAlign: "center",
-              }}
-            >
-              Color Block
-            </h3>
-            <h4
-              style={{
-                textAlign: "center",
-                width: "250px",
-                height: "20px",
-                padding: "10px 0px",
-              }}
-            >
-              Tech stack :HTML, Css, Reactjs
-            </h4>
-            <div className="btn-project">
-              <button
-                onClick={() =>
-                  openLink("https://github.com/Jayavenkate/shopping-app")
-                }
-              >
-                Front End
-              </button>
-              <button
-                onClick={() =>
-                  openLink("https://frolicking-bublanina-223494.netlify.app")
-                }
-              >
-                Link
-              </button>
-            </div>
-          </Card> */}
+
         </div>
       </div>
     </Element>
