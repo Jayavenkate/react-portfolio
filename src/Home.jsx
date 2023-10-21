@@ -25,7 +25,7 @@ export function Home() {
             }
             variant="contained"
             color="error"
-            className="btn"
+            sx={{ margin: "20px 20px" }}
           >
             Resume
           </Button>

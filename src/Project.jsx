@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import "./project.css";
 import movie from "../image/movie.jpg";
 import food from "../image/food.jpg";
-import color from "../image/color.jpg";
+import crud from "../image/crud.jpg";
 
 import ticket from "../image/ticket.jpg";
 
@@ -34,6 +34,15 @@ export function Project() {
       link: "https://spiffy-sfogliatella-d205d8.netlify.app",
       frontEndSource: "https://github.com/Jayavenkate/webcode-2-react",
       backEndSource: "https://github.com/Jayavenkate/webcode-2-node",
+      techStack: "Reactjs, NodeJs, Express, MongoDb",
+    },
+    {
+      id: "crud operation",
+      title: "Crud App",
+      image: crud,
+      link: "https://prismatic-crisp-03f064.netlify.app/",
+      frontEndSource: "https://github.com/Jayavenkate/react-job-crud",
+      backEndSource: "https://github.com/Jayavenkate/node-job-crud",
       techStack: "Reactjs, NodeJs, Express, MongoDb",
     },
   ];
@@ -82,7 +91,7 @@ export function Project() {
               </div>
             </Card>
           ))}
-          <Card className="card-wrapper">
+          {/* <Card className="card-wrapper">
             <img className="project-image" src={color} />
             <h3
               style={{
@@ -119,7 +128,7 @@ export function Project() {
                 Link
               </button>
             </div>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </Element>

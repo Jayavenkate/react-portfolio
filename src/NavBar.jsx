@@ -22,6 +22,7 @@ export function NavBar() {
     setAnchorElNav(null);
   };
 
+  
   return (
     <div>
       <AppBar position="fixed" sx={{ background: "#003067" }}>

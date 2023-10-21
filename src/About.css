@@ -2,9 +2,8 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  
+  justify-content: center;
  
 }
 .about-heading {
@@ -12,12 +11,11 @@
   text-align: center;
 }
 .about-content {
-  font-size: 25px;
   max-width: 980px;
-  /* margin: 0px; */
+  margin: 0px;
   text-align: center;
   font-family: "Alkatra", cursive;
-  font-size: 30px;
+  font-size: 25px;
 }
 .about-container .courses {
   color: rgb(238, 21, 28);
@@ -29,10 +27,9 @@
   .about-content {
     font-size: 20px;
     max-width: 980px;
-    /* margin: 0px; */
+    margin: 0px;
     text-align: center;
     font-family: "Alkatra", cursive;
-    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -44,7 +41,7 @@
     font-size: 15px;
   }
   .about-container {
-    height: 68vh;
+    min-height: unset;
     display: flex;
     flex-direction: column;
     justify-content: center;

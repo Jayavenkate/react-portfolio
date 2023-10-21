@@ -1,10 +1,11 @@
 .skill-con {
   display: flex;
-  padding: 5px;
-  flex-direction: column;
+
+  flex-direction: row;
   height: 100vh;
   align-items: center;
   justify-content: center;
+  
 }
 .skill-image {
   width: 64px;
@@ -15,18 +16,18 @@
   display: flex;
   justify-content: center;
   max-width: 1000px;
-  height: fit-content;
   margin-top: 50px;
   flex-wrap: wrap;
   gap: 10px;
+  /* flex-direction: row; */
 }
 #skill-cards {
   display: flex;
   flex-direction: column;
-  
+  margin: 0;
   transition: all 0.3s;
   padding: 20px;
-  width: 150px;
+  width: 100px;
   align-items: center;
   justify-content: center;
 }
@@ -40,6 +41,7 @@
 .skill-heading {
   font-size: 40px;
   margin: 0px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .skill-card-container {

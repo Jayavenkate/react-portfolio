@@ -4,10 +4,14 @@ import { Card } from "@mui/material";
 export function Skills() {
   return (
     <Element className="skill-con" id="skills">
-      <div>
+      {/* <div>
         <h2 className="skill-heading">Skills & Tools</h2>
-      </div>
+      </div> */}
       <div className="skill-card-container">
+      <div>
+      <h2 className="skill-heading">Skills & Tools</h2>
+      </div>
+      <div style={{display:"flex",flexDirection:"row",flexWrap:"wrap",justifyContent:"center",alignItems:"center",gap:"10px"}}>
         <Card id="skill-cards" elevation={3}>
           <img
             className="skill-image"
@@ -71,6 +75,7 @@ export function Skills() {
           />
           <p>MaterialUI</p>
         </Card>
+        </div>
       </div>
     </Element>
   );

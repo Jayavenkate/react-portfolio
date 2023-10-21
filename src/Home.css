@@ -1,27 +1,24 @@
 .top-container {
+  display: flex;
   min-height: 100vh;
-  
+  /* align-items: center; */
 }
 .home-container {
   position: absolute;
-  top: 150px;
+  /* top: 150px; */
   width: 100%;
   display: flex;
-  flex-wrap: no-wrap;
-  align-items: flex-end;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
+  margin: 0 auto;
+  
+}
+.home-div {
+  max-width: 350px;
+}
 
-}
-.home-container h1 {
-  letter-spacing: 1px;
-  text-align: left;
-  padding-left: 3px;
-  padding-top: 20px;
-  font-size: 3.5rem;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-}
 .btn:hover {
   background-color: white !important;
   color: black;
@@ -30,17 +27,19 @@
   color: #003067;
   font-size: 3rem;
   font-weight: bold;
-  margin: 0;
+  margin: 20px 20px;
 }
 .span-2 {
   color: orangered;
   font-size: 3.5rem;
   font-weight: bold;
+  margin: 20px 20px;
 }
 .span-3 {
   color: #003067;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  margin: 20px 20px;
 }
 .icon-button {
   margin-top: 50px;
@@ -49,21 +48,21 @@
   width: 500px;
   object-fit: contain;
 }
+
 @media (max-width: 1024px) {
   .span-1 {
     color: #003067;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin: 0;
   }
   .span-2 {
     color: orangered;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   .span-3 {
     color: #003067;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
   .image {
@@ -71,11 +70,20 @@
     object-fit: contain;
   }
 }
+.home-container {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 auto;
+}
 @media screen and (max-width: 768px) {
   .span-1 {
     font-size: 2rem;
     font-weight: bold;
-    margin: 0;
+    /* margin: 0; */
   }
   .span-2 {
     font-size: 2.5rem;
@@ -96,8 +104,10 @@
   .home-container {
     position: absolute;
     top: 100px;
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+    margin: 0 auto;
   }
 }
