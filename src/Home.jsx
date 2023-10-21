@@ -20,7 +20,7 @@ export function Home() {
           <Button
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1ZO6RjSeaAAta9Y_FTMOq2tLc6kxIAtRr/view"
+                "https://drive.google.com/file/d/1T02-S9E0_4bloM63ouh17W6WXoHeTj-n/view"
               )
             }
             variant="contained"
