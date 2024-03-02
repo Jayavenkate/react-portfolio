@@ -1,7 +1,7 @@
 import { Element } from "react-scroll";
 import "./project.css";
 import movie from "../image/movie.jpg";
-// import food from "../image/food.jpg";
+import food from "../image/food.jpg";
 import crud from "../image/crud.jpg";
 
 import ticket from "../image/ticket.jpg";
@@ -13,20 +13,20 @@ export function Project() {
       id: "Movie App",
       title: "Movie Review App",
       image: movie,
-      link: "https://master--statuesque-dusk-f7fbb5.netlify.app",
+      link: "https://statuesque-dusk-f7fbb5.netlify.app/",
       frontEndSource: "https://github.com/Jayavenkate/react-movie-demo",
       backEndSource: "https://github.com/Jayavenkate/mongodb-node-movies-app",
       techStack: "Reactjs, NodeJs, Express, MongoDb",
     },
-    // {
-    //   id: "Food app",
-    //   title: "Food Token Generate App",
-    //   image: food,
-    //   link: "https://beautiful-stardust-2d69dc.netlify.app",
-    //   frontEndSource: "https://github.com/Jayavenkate/food-app-react",
-    //   backEndSource: "https://github.com/Jayavenkate/capstone-node",
-    //   techStack: "Reactjs, NodeJs, Express, MongoDb",
-    // },
+    {
+      id: "Food app",
+      title: "Food Token Generate App",
+      image: food,
+      link: "https://master--beautiful-stardust-2d69dc.netlify.app/",
+      frontEndSource: "https://github.com/Jayavenkate/food-app-react",
+      backEndSource: "https://github.com/Jayavenkate/capstone-node",
+      techStack: "Reactjs, NodeJs, Express, MongoDb",
+    },
     {
       id: "Movie Booking App",
       title: "Movie Ticket Booking App",
