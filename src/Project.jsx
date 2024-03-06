@@ -22,7 +22,7 @@ export function Project() {
       id: "Food app",
       title: "Food Token Generate App",
       image: food,
-      link: "https://master--beautiful-stardust-2d69dc.netlify.app/",
+      link: "https://beautiful-stardust-2d69dc.netlify.app/",
       frontEndSource: "https://github.com/Jayavenkate/food-app-react",
       backEndSource: "https://github.com/Jayavenkate/capstone-node",
       techStack: "Reactjs, NodeJs, Express, MongoDb",
