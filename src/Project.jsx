@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 import "./project.css";
 import movie from "../image/movie.jpg";
 import food from "../image/food.jpg";
-import crud from "../image/crud.jpg";
+// import crud from "../image/crud.jpg";
 
 import ticket from "../image/ticket.jpg";
 
@@ -36,15 +36,15 @@ export function Project() {
       backEndSource: "https://github.com/Jayavenkate/webcode-2-node",
       techStack: "Reactjs, NodeJs, Express, MongoDb",
     },
-    {
-      id: "crud operation",
-      title: "Crud App",
-      image: crud,
-      link: "https://prismatic-crisp-03f064.netlify.app/",
-      frontEndSource: "https://github.com/Jayavenkate/react-job-crud",
-      backEndSource: "https://github.com/Jayavenkate/node-job-crud",
-      techStack: "Reactjs, NodeJs, Express, MongoDb",
-    },
+    // {
+    //   id: "crud operation",
+    //   title: "Crud App",
+    //   image: crud,
+    //   link: "https://prismatic-crisp-03f064.netlify.app/",
+    //   frontEndSource: "https://github.com/Jayavenkate/react-job-crud",
+    //   backEndSource: "https://github.com/Jayavenkate/node-job-crud",
+    //   techStack: "Reactjs, NodeJs, Express, MongoDb",
+    // },
   ];
   const openLink = (link) => {
     window.open(link, "_blank");
